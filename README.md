@@ -95,7 +95,7 @@ class Test extends Request
 
         public function _do()
         {
-            $result = $db->query("SELECT * FROM clients WHERE clientID = '".$this->params['clientID']."');
+            $result = $db->query("SELECT * FROM clients WHERE clientID = '".$this->params['clientID']."'");
             if($result && mysql_num_rows($result) > 0)
               return mysql_fetch_assoc($result);
             
