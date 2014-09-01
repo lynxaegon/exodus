@@ -21,6 +21,22 @@ class DB
 		}
 		mysql_query("SET NAMES 'utf8'");
 	}
+	
+	public function beginTransaction()
+        {
+                mysql_query("START TRANSACTION");
+        }
+
+        public function commit()
+        {
+                mysql_query("COMMIT");
+        }
+
+        public function rollback()
+        {
+                mysql_query("ROLLBACK");
+        }
+	
 	public function query($query)
 	{
 		$this->query_string = $query;
