@@ -166,4 +166,4 @@ execution_time: 0.000056982040405273
 ```
 
 ###Credits
-*[liviucmg](https://github.com/liviucmg)
+* [liviucmg](https://github.com/liviucmg)
