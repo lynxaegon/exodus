@@ -15,7 +15,7 @@ Every parameter that enters the API framework is sanitized before entering the r
 
 ##Installation
 ```
-$ git clone https://github.com/mReady/exodus.git .
+$ git clone https://github.com/lynxaegon/exodus.git .
 $ mkdir files
 $ mkdir lib/smarty/templates_c
 $ mkdir lib/smarty/cache
